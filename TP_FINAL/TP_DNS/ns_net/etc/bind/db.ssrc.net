@@ -1,0 +1,13 @@
+$TTL    60000
+@               IN      SOA     nsssrc.ssrc.net.    root.nsssrc.ssrc.net. (
+                        2006031201 ; serial
+                        28800 ; refresh
+                        14400 ; retry
+                        3600000 ; expire
+                        0 ; negative cache ttl
+                        )
+@               IN      NS       nsssrc.ssrc.net.
+nsssrc          IN      A       192.168.0.22
+baxter		IN	A	192.168.0.222
+local		IN	A	192.168.0.220
+ns		IN	CNAME	nsssrc

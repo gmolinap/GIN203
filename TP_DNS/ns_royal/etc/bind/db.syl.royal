@@ -1,0 +1,13 @@
+$TTL    60000
+@               IN      SOA     nsroyal.royal.syl.    root.nsroyal.royal.syl. (
+                        2006031201 ; serial
+                        28 ; refresh
+                        14 ; retry
+                        3600000 ; expire
+                        0 ; negative cache ttl
+                        )
+@               IN      NS      nsroyal.royal.syl.
+nsroyal         IN      A       192.168.0.11
+muskar12		IN	    A	    192.168.0.111
+local           IN      A       192.168.0.110
+ns              IN      CNAME   nsroyal
